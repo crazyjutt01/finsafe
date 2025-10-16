@@ -1,6 +1,64 @@
-# FinSafe: Your Personal AI-Powered Finance Assistant
+# FinSafe — User Guide
 
-FinSafe is a modern, responsive web application built with Next.js that leverages the power of Generative AI to provide users with intelligent financial insights, automated expense tracking, and personalized advice to help them achieve their financial goals.
+Welcome to FinSafe — a personal finance assistant that uses AI to help you track spending, plan budgets, and reach savings goals. This guide explains how to use the app's features in everyday language, privacy notes, and quick troubleshooting steps.
+## Who this guide is for
+
+This is a user-facing manual for non-developers: people who will open the app, sign in, add transactions, upload receipts, ask the AI for advice, and manage budgets and goals.
+## Quick start (using the web app)
+
+1. Open the app in your browser. If hosting locally the developer may provide a URL (e.g. `http://localhost:3000`).
+
+## Live demo
+
+You can try the public live site at: https://finsafe-ai.netlify.app
+
+If the site is down or you prefer to run locally, follow the Quick start steps above.
+## Main features & how to use them
+
+Dashboard — your overview
+- Where to find it: Click "Dashboard" in the main navigation.
+- What it shows: Monthly overview (income vs spending), net worth, recent transactions, and quick cards for budgets and goals.
+- How to use: Scan the Monthly Overview to see if spending is within your budget. Click a recent transaction to edit or delete it.
+SpendSpy — add expenses from receipts
+- Where to find it: "SpendSpy" in navigation.
+- What it does: Upload or drag-and-drop a photo of a receipt. AI extracts merchant, date, amount, and category and creates a transaction automatically.
+Budgets (BudgetBot)
+- Where to find it: "Budget Bot" or Budgets card on the dashboard.
+- What it does: Create monthly budgets for categories (e.g., Food, Transportation). Track progress with a visual bar.
+GoalGuru — savings goals
+- Where to find it: "Goal Guru" or the Savings Goals card.
+- What it does: Let you set savings goals (amount, deadline). Track progress and get AI tips.
+AdvisorAI — ask questions and get advice
+- Where to find it: Floating chat button (bottom-right) or Advisor AI page.
+- What it does: Ask natural-language financial questions. AI reads your transaction and budget data (if you allow) and answers in plain language.
+Crisis Guardian — emergency planning
+- Where to find it: Crisis Guardian page.
+- What it does: Scans for financial stress signals (e.g., sudden big expenses, overdrafts) and suggests steps to stabilize finances.
+Transactions — add, edit, delete
+- Where to find it: Recent Transactions card or Transactions page.
+- How to add:
+Settings — personalization
+- Profile: Update name, preferred currency, and monthly income.
+- Notifications: Turn on smart reminders or daily digest emails.
+Help & Support
+- Where to find it: Help & Support page.
+- Contents: FAQ, contact options (email), and troubleshooting guides.
+## Privacy & security (important)
+
+- Your account: Your data (transactions, budgets, goals) is stored under your account and protected by Firebase Authentication.
+## Common troubleshooting
+
+- "I uploaded a receipt but the details are wrong": Review and correct the fields before saving. If parsing repeatedly fails, try a clearer photo or type the transaction manually.
+## Tips & best practices
+
+- Add receipts regularly to keep budgets accurate.
+## Contact & feedback
+
+If you find bugs or want to request features, use the Help & Support page to contact the team or open an issue in the project repository.
+
+---
+
+If you'd like this guide exported as a short PDF or printed help card for onboarding new users, I can generate that next.
 
 ## Tech Stack
 
